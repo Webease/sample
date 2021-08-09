@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+        <title>Eduford University-About</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="txt">
+                <h1>About Us</h1>
+            </div>
+        </section>
+
+    <!----------About Us------------------>
+    <section class="about">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the World's Largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque necessitatibus aperiam pariatur nisi expedita modi illum asperiores? Minus nam id, minima sint asperiores quas exercitationem ea. Asperiores, vero? Facere odio cupiditate culpa! Molestiae, nobis corrupti?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo eius repellat culpa, minus voluptas, quo maiores veritatis voluptatibus voluptates vel deleniti iusto enim optio et eum doloribus assumenda debitis eligendi natus, error dignissimos inventore consequatur!</p>
+                <a href="" class="button redbtn">Explore More</a>
+            </div>
+            <div class="about-col">
+                <img src="/images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!---------------Footer------------>
+        <footer>
+            <h4>About US</h4>
+            <div class="icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <p>Made With<i class="far fa-heart"></i>by <span>Nikhilreddy H</span></p>
+        </footer>
+
+        <!--JavaScript for Menu Toggle-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right="0";
+                navLinks.style.width="50%";
+            }
+            function hideMenu() {
+                navLinks.style.right="-55%";
+                navLinks.style.width="0";
+            }
+        </script>
+
+
+    </body>
+</html>
